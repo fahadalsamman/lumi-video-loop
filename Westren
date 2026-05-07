@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title>Lumi Brand Video Loop</title>
+    <style>
+        body {
+            margin: 0;
+            background: black;
+        }
+        video {
+            width: 100vw;
+            height: 100vh;
+            object-fit: cover; /* اختيارية: لجعل الفيديو يملأ الشاشة بالكامل بدون حواف سوداء */
+        }
+    </style>
+</head>
+<body>
+    <video src="https://marketing-screens.tauseef-ahmed.workers.dev/branch/western-region---downtown" autoplay muted loop playsinline controls></video>
+</body>
+</html>
