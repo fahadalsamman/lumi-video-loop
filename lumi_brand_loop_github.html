@@ -1,21 +1,26 @@
-
 <!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="UTF-8" />
-    <title>Lumi Brand Video Loop</title>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lumi Display</title>
     <style>
-      body {
-        margin: 0;
-        background: black;
-      }
-      video {
-        width: 100vw;
-        height: 100vh;
-      }
+        body, html {
+            margin: 0;
+            padding: 0;
+            height: 100%;
+            width: 100%;
+            overflow: hidden; /* لمنع ظهور شريط التمرير */
+            background-color: black;
+        }
+        iframe {
+            width: 100vw;
+            height: 100vh;
+            border: none;
+        }
     </style>
-  </head>
-  <body>
-    <video src="https://marketing-screens.tauseef-ahmed.workers.dev/branch/western-region---downtown" autoplay muted loop playsinline controls></video>
-  </body>
+</head>
+<body>
+    <iframe src="https://marketing-screens.tauseef-ahmed.workers.dev/branch/western-region---downtown" allow="autoplay"></iframe>
+</body>
 </html>
