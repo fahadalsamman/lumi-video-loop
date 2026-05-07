@@ -3,24 +3,33 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Lumi Display</title>
+    <title>Lumi Display Fullscreen</title>
     <style>
         body, html {
             margin: 0;
             padding: 0;
             height: 100%;
             width: 100%;
-            overflow: hidden; /* لمنع ظهور شريط التمرير */
+            overflow: hidden;
             background-color: black;
         }
         iframe {
             width: 100vw;
             height: 100vh;
             border: none;
+            position: absolute;
+            top: 0;
+            left: 0;
         }
     </style>
 </head>
 <body>
-    <iframe src="https://marketing-screens.tauseef-ahmed.workers.dev/branch/western-region---downtown" allow="autoplay"></iframe>
+    <iframe 
+        src="https://marketing-screens.tauseef-ahmed.workers.dev/branch/western-region---downtown" 
+        allow="autoplay; fullscreen" 
+        allowfullscreen="true" 
+        webkitallowfullscreen="true" 
+        mozallowfullscreen="true">
+    </iframe>
 </body>
 </html>
